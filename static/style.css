@@ -1,0 +1,32 @@
+.html,
+.body {
+    width: 100%;
+    height: 100%;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    margin: 1% 2%;
+}
+
+#list {
+    margin-top: 1%;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.listElement {
+    width: 25%;
+    padding: 1% 0 0 0;
+    margin-bottom: 0;
+}
+.gradient {
+    background: linear-gradient(
+        to left,
+        rgb(0, 255, 0),
+        yellow
+    ); /* Standard syntax*/
+}
