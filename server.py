@@ -1,12 +1,11 @@
-from flask import Flask
+from flask import Flask, render_template
 
-app = Flask(__name__)
-app._static_folder = 'static'
+app = Flask(__name__, static_folder='build/static', template_folder='build')
 
 
 @app.route('/')
 def index():
-    return app.send_static_file('index.html')
+    return render_template('index.html')
 
 
 if __name__ == '__main__':
